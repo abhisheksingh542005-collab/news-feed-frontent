@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosClient = axios.create({
-  baseURL: 'https://news-feed-backent.onrender.com',
+  baseURL: 'https://news-feed-backent.onrender.com/api/v1',
   headers: {
     'Content-Type': 'application/json',
   },
